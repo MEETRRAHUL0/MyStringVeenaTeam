@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace CP
 {
     class Program
-    {   //BRIEF:    
-        //You are not to change anything in this Main method. 
-        //This Main method as you have it here will be used to 
+    {   //BRIEF:
+        //You are not to change anything in this Main method.
+        //This Main method as you have it here will be used to
         //  test your MyString class.
         //You are to implement MyString class to pass the tests
         //  set out in this Main Method.
@@ -29,23 +29,23 @@ namespace CP
             string myString = "Year Of The Cat!";
             Console.WriteLine("Should print 'O': {0}", myString[5]); Console.WriteLine();
 
-            
+
 
 
             //Implement: Create a Constructor that takes array of characters
-            
+
             //Implement: Create 'integer index operartor' for MyString class to
             //  return char.
-           
+
             //Implement: Create 'Write()' Method
-            
+
             MyString s1 = new MyString();
             Console.Write("Should print nothing: "); s1.Write(); Console.WriteLine();
-            
+
             char[] a = { 'M', 'y', ' ', 'n', 'a', 'm', 'e' };
             MyString s2 = new MyString(a);
-            Console.Write("Should print 'My name': "); s2.Write(); Console.WriteLine(); 
-            
+            Console.Write("Should print 'My name': "); s2.Write(); Console.WriteLine();
+
             //Implement: Create an Operator '+' that concatenates two MyStrings
             //Note: In the course of the module we did not do operators.
             //Note: Operators are a bit of learning you must do on your own.
@@ -58,11 +58,11 @@ namespace CP
 
             Console.WriteLine();
             //Note we get this operator for free
-            s3 += new MyString(' '); s3 += s2; 
+            s3 += new MyString(' '); s3 += s2;
             Console.Write("Should print 'My name My name My name': "); s3.Write(); Console.WriteLine();
             Console.WriteLine();
 
-            //Implement: Create 'ToCharArray()' Method to convert MyString to char[] 
+            //Implement: Create 'ToCharArray()' Method to convert MyString to char[]
             char[] a2 = s3.ToCharArray();
             Console.WriteLine("Should print 'M': {0}", a2[8]);
 
@@ -80,7 +80,7 @@ namespace CP
             Console.Write("Should print 'ABC': "); s5.ToUpper().Write(); Console.WriteLine();
 
             Console.WriteLine();
-            //Note that all objects inherit 'Equals()' Method from Object class. Equals() 
+            //Note that all objects inherit 'Equals()' Method from Object class. Equals()
             //  Method compares object references. 'o1.Equals(o2)' returns True if o1 and
             //  o2 have the same reference, not necessarliy the same value (Disclaimer: Not
             //  true in case of value Types)
@@ -91,7 +91,7 @@ namespace CP
             string o5 = "a"; string o6 = "a"; //String is reference Type
             //Note that string class implements an override to 'Equals()' Method:
             //  'bool string Equals(string value)'. This Method compares the value
-            //  of string object with value of another string object (not the 
+            //  of string object with value of another string object (not the
             //  references). And string calss (A reference Type) behaves like a value type.
             Console.WriteLine("Should print 'True': {0}", o5.Equals(o6));
             Console.WriteLine();
@@ -157,7 +157,7 @@ namespace CP
 
             //Implement: Create the 'Reverse()' Method for MyString class
             MyString s15 = new MyString(new char[] { 'A', 'B', 'C', 'a', 'b', 'c' });
-            IEnumerable<char> l2 = s15.Reverse(); 
+            IEnumerable<char> l2 = s15.Reverse();
             MyString r2 = new MyString(l2.ToArray<char>());
             Console.Write("Should print 'cbaCBA': "); r2.Write();
 

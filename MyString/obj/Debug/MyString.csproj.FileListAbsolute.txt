@@ -26,3 +26,10 @@ C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorial
 C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
 C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.exe
 C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.pdb
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.csprojAssemblyReference.cache
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.exe
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.pdb
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.exe.config
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.exe
+C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.pdb
