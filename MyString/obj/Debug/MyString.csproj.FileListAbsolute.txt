@@ -1,0 +1,28 @@
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\bin\Debug\MyString.exe.config
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\bin\Debug\MyString.exe
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\bin\Debug\MyString.pdb
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\obj\Debug\MyString.csprojAssemblyReference.cache
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\obj\Debug\MyString.exe
+N:\ACESstaff\Academic\AWA\Mo's Folder\COMPUTER PROGRAMMING\Learning Material 2020-21\MyString\MyString\MyString\obj\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\MyString\MyString\bin\Debug\MyString.exe.config
+C:\Users\cmsmr2\Desktop\MyString\MyString\bin\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\MyString\MyString\bin\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\MyString\MyString\obj\Debug\MyString.csprojAssemblyReference.cache
+C:\Users\cmsmr2\Desktop\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
+C:\Users\cmsmr2\Desktop\MyString\MyString\obj\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\MyString\MyString\obj\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\bin\Debug\MyString.exe.config
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\bin\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\bin\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\obj\Debug\MyString.csprojAssemblyReference.cache
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\obj\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\Various Lectures and Tutorials\MyString\MyString\obj\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\bin\Debug\MyString.exe.config
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\bin\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\bin\Debug\MyString.pdb
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.csprojAssemblyReference.cache
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.csproj.CoreCompileInputs.cache
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.exe
+C:\Users\cmsmr2\Desktop\Resources\Useful_Resources\Various_Lectures_and_Tutorials\MyString\MyString\obj\Debug\MyString.pdb

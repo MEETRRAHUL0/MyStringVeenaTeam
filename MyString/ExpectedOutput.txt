@@ -1,0 +1,39 @@
+﻿Should print 'O': O
+
+Should print nothing:
+Should print 'My name': My name
+Should print 'My name': My name
+Should print 'My name My name': My name My name
+
+Should print 'My name My name My name': My name My name My name
+
+Should print 'M': M
+Should print 'ABC': ABC
+Should print 'ABC': ABC
+Should print 'ABC': ABC
+Should print 'abc': abc
+Should print 'ABC': ABC
+
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+
+Should print 'False': False
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+Should print 'True': True
+Should print 'False': False
+Should print 'True': True
+Should print 'True': True
+Should print 'False': False
+Should print 'EDCBA': EDCBA
+Should print 'cbaCBA': cbaCBA
