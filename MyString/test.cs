@@ -4,16 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyString
+namespace CP
 {
-    public class test
+    public static class Test
     {
 
 
-        public void TestString()
+        public static void MyTest()
         {
-            string str = new string(new char[] { 'c' });
+            char[] a = { 'M', 'y', ' ', 'n', 'a', 'm', 'e' };
+            MyString s2 = new MyString(a);
+            Console.Write($" MyTest : 1. Should print Index Value 'y': {s2[1]}"); ; Console.WriteLine();
 
+
+            Console.Write($" MyTest : 1. Should print Lenght '7': {s2.Length}"); ; Console.WriteLine();
 
 
         }

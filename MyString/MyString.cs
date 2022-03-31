@@ -1,20 +1,38 @@
+
 using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+
 
 namespace CP
 {
-    public class MyString
+    public partial class MyString
     {
         private readonly char[] MyCharArry;
-        private char myChar;
+
+        public int Length => this.MyCharArry.Length;
+
+        public char this[int index]
+        {
+            get
+            {
+                if (index < 0 || index >= MyCharArry.Length)
+                    throw new IndexOutOfRangeException("Index out of range");
+
+                return MyCharArry[index];
+            }
+
+            set
+            {
+                if (index < 0 || index >= MyCharArry.Length)
+                    throw new IndexOutOfRangeException("Index out of range");
+
+                MyCharArry[index] = value;
+            }
+        }
 
         #region Constractor
         public MyString()
         {
-
+            this.MyCharArry = new char[] { };
         }
 
         public MyString(char[] charArry)
@@ -22,86 +40,25 @@ namespace CP
             this.MyCharArry = charArry;
         }
 
-        public MyString(char a)
+        public MyString(char myChar)
         {
-
-        }
-        #endregion
-        internal void Write()
-        {
-            throw new NotImplementedException();
-        }
-
-        #region OperatorOverloading
-        public static MyString operator +(MyString str1, MyString str2)
-        {
-            return (MyString)str1.MyCharArry.Concat(str2.MyCharArry);
-
-            MyString Calc3 = new MyString(new char[] { ' ' });
-            Calc3.MyCharArry.Concat(str1.MyCharArry).Concat(str2.MyCharArry);
-            return Calc3;
-
-        }
-
-        public static MyString operator >(MyString str1, MyString str2)
-        {
-            return (MyString)str1.MyCharArry.Concat(str2.MyCharArry);
-
-            MyString Calc3 = new MyString(new char[] { ' ' });
-            Calc3.MyCharArry.Concat(str1.MyCharArry).Concat(str2.MyCharArry);
-            return Calc3;
-
-        }
-        public static MyString operator <(MyString str1, MyString str2)
-        {
-            return (MyString)str1.MyCharArry.Concat(str2.MyCharArry);
-
-            MyString Calc3 = new MyString(new char[] { ' ' });
-            Calc3.MyCharArry.Concat(str1.MyCharArry).Concat(str2.MyCharArry);
-            return Calc3;
-
-        }
-        public static MyString operator <=(MyString str1, MyString str2)
-        {
-            return (MyString)str1.MyCharArry.Concat(str2.MyCharArry);
-
-            MyString Calc3 = new MyString(new char[] { ' ' });
-            Calc3.MyCharArry.Concat(str1.MyCharArry).Concat(str2.MyCharArry);
-            return Calc3;
-
-        }
-        public static MyString operator >=(MyString str1, MyString str2)
-        {
-            return (MyString)str1.MyCharArry.Concat(str2.MyCharArry);
-
-            MyString Calc3 = new MyString(new char[] { ' ' });
-            Calc3.MyCharArry.Concat(str1.MyCharArry).Concat(str2.MyCharArry);
-            return Calc3;
-
+            this.MyCharArry = new char[] { myChar };
         }
         #endregion
 
-        #region StringManupulation
-
-        internal char[] ToCharArray()
+        internal string Write()
         {
-            throw new NotImplementedException();
+            var res = MyCharArry.ToStr();
+
+            Console.WriteLine(res);
+            return res;
         }
 
-        internal MyString ToLower()
+        private int Sum()
         {
-            throw new NotImplementedException();
+            int sum = 0;
+            Array.ForEach(MyCharArry, i => sum += i);
+            return sum;
         }
-
-        internal MyString ToUpper()
-        {
-            throw new NotImplementedException();
-        }
-
-        internal IEnumerable<char> Reverse()
-        {
-            throw new NotImplementedException();
-        }
-        #endregion
     }
 }
