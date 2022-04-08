@@ -10,10 +10,8 @@ namespace CP
     // This class is part of MyString class
     public partial class MyString
     {
-
-        #region OperatorOverloading
-
         // This method is to concatinating two strings
+        #region OperatorOverloading
         public static MyString operator + (MyString str1, MyString str2)
         {
             // ConcatMychar is defined in the Extensions.cs file

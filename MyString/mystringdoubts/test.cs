@@ -9,19 +9,16 @@ namespace CP
     public static class Test
     {
 
-        // This method is a test mesthod to check the length and index of the given string Implemented under Mystring class
+        // This method is a test mesthod to check the length and index of the given string
         public static void MyTest()
         {
-            // create character array, with given characters
-            char[] a = { 'M', 'y', ' ', 'n', 'a', 'm', 'e' };
-
-            // Calling constructer of MyString
+            // create an empty character array, and inside given some characters 
+            char[] a = { 'M', 'y', ' ', 'n', 'a', 'm', 'e' }; 
             MyString s2 = new MyString(a);
-
-            // Calling of the index of the specified array
+            // Calcutation of the index of the specified array
             Console.Write($" MyTest : 1. Should print Index Value 'y': {s2[1]}"); ; Console.WriteLine();
 
-            // Calling the Length property of MyString in specified array
+            // Calculation of the Length of the specified array
             Console.Write($" MyTest : 2. Should print Length '7': {s2.Length}"); ; Console.WriteLine();
 
         }

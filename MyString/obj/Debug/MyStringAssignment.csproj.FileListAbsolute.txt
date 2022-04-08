@@ -1,7 +1,6 @@
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.exe.config
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.exe
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\bin\Debug\MyString.pdb
-C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyStringAssignment.csprojAssemblyReference.cache
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyStringAssignment.csproj.CoreCompileInputs.cache
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.exe
 C:\D Drive\Rahul\New folder\MyString (1)\MyString\MyString\obj\Debug\MyString.pdb

@@ -6,13 +6,13 @@ namespace CP
 {
     public partial class MyString
     {
-        //private variable for this class to store char array,
+        //private variable for this class,
         //which will get initialised based on the constructor
-        private readonly char[] MyCharArry;
+        private readonly char[] MyCharArry; 
 
         public int Length => this.MyCharArry.Length; //Returning Length property
 
-        //Creating an 'integer indexer' for MyString class to return char index value.
+        //Creating an 'integer index operartor' for MyString class to return char.
         public char this[int index]
         {
             //Get method
@@ -36,40 +36,35 @@ namespace CP
             }
         }
 
-
-        #region Constractor
-
         //Defining an empty or default constructor
+        #region Constractor
         public MyString()
         {
-            // inislizing private variable with Empty char array
             this.MyCharArry = new char[] { };
         }
 
-        //This constructor will accept only char arrays(Calling the chararry constructor)
+        //This constructor will accept only arrays(Calling the chararry constructor)
         public MyString(char[] charArry)
         {
-            //gets the char list and stores in Private variable MyCharArry
+            //gets the list and stores the list in MyCharArry variable
             this.MyCharArry = charArry;
         }
 
         //This constructor will accept only characters
         public MyString(char myChar)
         {
-            //gets the char and stores in Private variable MyCharArry
             this.MyCharArry = new char[] { myChar };
         }
         #endregion
 
-        // Write method to read private variable and write the data in console
+        // Write method to read and write the file
         internal string Write()
         {
             // Array storing in to a string format
-            //ToStr() will read the char array and convert in string
             var res = MyCharArry.ToStr();
-            // Printing the converted array in string
+            // Printing the character array string
             Console.Write(res);
-            // Returning the string value
+            // Returning the value
             return res;
         }
 

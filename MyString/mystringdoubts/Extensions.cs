@@ -4,10 +4,10 @@ namespace CP
 {
     public static class Extensions
     {
-        // ToStr method will loop all the array and stores in a single string variable and returns the result
+        // ToStr method will loop all the array and stores in a single string variable and returns the result 
         public static string ToStr(this char[] myCharArry)
         {
-            // New variable store string value of array
+            // New variable called res
             var res = string.Empty;
 
             // Loop all the array and stores in to a string variable res
