@@ -62,15 +62,20 @@ namespace CP
         }
 
 
-        // This method will check the 2 strings equal or not
-        // Getting the ASCII value of each array and compare
+        // This method will check the 2 char array is queal
         public static bool operator ==(MyString str1, MyString str2)
         {
+            // Getting the ASCII value of each array and compare
+            // Responce variable, default is true
             var res = true;
+
+            // looping first array and reading each char
             foreach (var c in str1.MyCharArry)
             {
+                // checking wether char array 2 does not contain the char present in c variable
                 if (!str2.MyCharArry.Contains(c))
                 {
+                    // if its not contain , then we know, both the array in not equal and break the Loop ,
                     res = false;
                     break;
                 }
@@ -83,12 +88,16 @@ namespace CP
         // Getting the ASCII value of each array and compare
         public static bool operator !=(MyString str1, MyString str2)
         {
-
+            // Responce variable, default is false
             var res = false;
+
+            // looping first array and reading each char
             foreach (var c in str1.MyCharArry)
             {
+                // checking wether char array 2 does not contain the char present in c variable
                 if (!str2.MyCharArry.Contains(c))
                 {
+                    // if its not contain , then we know, both the array in not equal and break the Loop ,
                     res = true;
                     break;
                 }
